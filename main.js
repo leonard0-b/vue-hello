@@ -10,7 +10,8 @@ var app = new Vue (
       image: "./assets/img/mappamondo.jpg",
       myclass: "txt-center",
       link: "./assets/img/donut.png",
-      video: "https://www.youtube.com/watch?v=SQgyyqOBf04&ab_channel=MantonioBanderas"
+      video: "https://www.youtube.com/watch?v=SQgyyqOBf04&ab_channel=MantonioBanderas",
+      utente: ""
     }
   }
 );

@@ -22,6 +22,11 @@ img {
     to   { opacity: 1; }
 }
 
+p {
+  color: #fff;
+  text-shadow: 2px 2px #ab5a09;;
+}
+
 h1 {
   animation: fadein 2s;
   color: #fff;
@@ -46,4 +51,27 @@ a > img {
   margin-top: 30px;
   box-shadow: none;
   width: 60px;
-filter: drop-shadow(2px 4px 0px #ab5a09);}
+  filter: drop-shadow(2px 4px 0px #ab5a09);
+}
+
+a > img:hover {
+  transform: translate(0 , 0.08em);
+}
+
+a > img:active {
+  transform: translate(0 , 0.25em);
+}
+
+input, p {
+  margin-top: 30px;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid #ab5a09;
+  background-color: inherit;
+}
+
+input:focus{
+  outline: none;
+}
